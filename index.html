@@ -2,107 +2,128 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gezer Oyuncak</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="google-site-verification" content="w5xic0h4FLRvxmX9QEHNoziA9CFwsZ-I5hs97wnsCyQ" />
+
+  <title>Gezer Oyuncak | Online Oyuncak Mağazası</title>
+
+  <meta name="description" content="Gezer Oyuncak - El yapımı ve kaliteli oyuncaklar. Güvenli alışveriş." />
+  <meta name="keywords" content="oyuncak, el yapımı oyuncak, çocuk oyuncağı" />
+
   <style>
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Arial, sans-serif;
       background: #f7f7f7;
-      color: #222;
     }
     header {
-      background: #ff8c42;
+      background: #ff6f00;
       color: white;
       padding: 20px;
       text-align: center;
     }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
     .container {
       padding: 20px;
-      max-width: 1000px;
+      max-width: 1100px;
       margin: auto;
     }
     .products {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 20px;
     }
     .card {
       background: white;
-      border-radius: 10px;
       padding: 15px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       text-align: center;
     }
     .card img {
       width: 100%;
-      border-radius: 8px;
-    }
-    .card h3 {
-      margin: 10px 0 5px;
-    }
-    .price {
-      color: #ff8c42;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-    .buy {
-      display: inline-block;
-      padding: 10px 15px;
-      background: #ff8c42;
-      color: white;
-      text-decoration: none;
       border-radius: 6px;
     }
-    .buy:hover {
-      background: #e6762f;
+    .card button {
+      background: #ff6f00;
+      border: none;
+      color: white;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .card button:hover {
+      background: #e65c00;
     }
     footer {
+      background: #222;
+      color: white;
       text-align: center;
       padding: 15px;
-      color: #777;
-      font-size: 14px;
+      margin-top: 30px;
     }
   </style>
-<head>
-        <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <meta name="google-site-verification" content="Jocp0Iz_Dlvf-MA6ArLnUFr67BQy_xuQk6VmXMHmBzA" />
-
-  <title>Gezer Oyuncak</title>
 </head>
+
 <body>
 
-  <header>
-    
-    <h1>🧸 Gezer Oyuncak</h1>
-    <p>Yakında satışta • Güvenli • Eğlenceli</p>
-  </header>
+<header>
+  <h1>🧸 Gezer Oyuncak</h1>
+  <p>Sevgiyle yapılan oyuncaklar</p>
+</header>
 
-  <div class="container">
-    <h2>Ürünler</h2>
+<nav>
+  <a href="#">Anasayfa</a>
+  <a href="#">Ürünler</a>
+  <a href="#">Hakkımızda</a>
+  <a href="#">İletişim</a>
+</nav>
 
-    <div class="products">
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=Oyuncak+1" alt="Oyuncak 1">
-        <h3>Ahşap Oyuncak</h3>
-        <div class="price">149₺</div>
-        <a class="buy" href="#">Satın Al</a>
-      </div>
+<div class="container">
+  <h2>Öne Çıkan Ürünler</h2>
 
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=Oyuncak+2" alt="Oyuncak 2">
-        <h3>Peluş Ayı</h3>
-        <div class="price">199₺</div>
-        <a class="buy" href="#">Satın Al</a>
-      </div>
+  <div class="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Oyuncak 1">
+      <h3>El Yapımı Oyuncak</h3>
+      <p>₺199</p>
+      <button>Sepete Ekle</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Oyuncak 2">
+      <h3>Ahşap Oyuncak</h3>
+      <p>₺249</p>
+      <button>Sepete Ekle</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Oyuncak 3">
+      <h3>Örgü Bebek</h3>
+      <p>₺299</p>
+      <button>Sepete Ekle</button>
     </div>
   </div>
+</div>
 
-  <footer>
-    © 2026 Gezer Oyuncak • Deneme Sitesi
-  </footer>
+<footer>
+  <p>© 2026 Gezer Oyuncak | Tüm hakları saklıdır</p>
+</footer>
 
 </body>
 </html>
